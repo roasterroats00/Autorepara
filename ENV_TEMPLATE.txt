@@ -1,0 +1,30 @@
+# ============================================
+# COPY THIS EXACT CONTENT TO YOUR .env FILE
+# ============================================
+
+# Database
+DATABASE_URL=postgresql://user:password@localhost:5432/autorepara
+
+# Supabase (replace with your actual values)
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_KEY=your-service-role-key
+
+# ============================================
+# CRITICAL: Gemini API Keys
+# ============================================
+# Variable name MUST be: GEMINI_API_KEYS (with S at the end)
+# NO SPACES after commas
+# All on ONE line
+GEMINI_API_KEYS=AIzaSyB8foos6YfBGa-ZpP5E6e-zUhu4s4kyYuU,AIzaSyDGL65nqSJEjNZLGWbSfDR11EEavMJdzEg,AIzaSyD5ld-a_mimf-iZqzDCcCuZohFZYzq8xvg
+
+# Server
+NODE_ENV=development
+
+# ============================================
+# AFTER COPYING:
+# 1. Save the .env file
+# 2. Stop the dev server (Ctrl+C)
+# 3. Restart: npm run dev
+# 4. Look for: "[Gemini] Loaded 3 API keys for rotation"
+# ============================================
